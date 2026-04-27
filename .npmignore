@@ -1,0 +1,33 @@
+# Source files (publish only dist)
+src/
+tsconfig.json
+tsup.config.ts
+
+# Source maps (security - prevent reverse engineering)
+*.map
+**/*.map
+
+# Development files
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Tests
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+test/
+tests/
+
+# Documentation (keep README)
+docs/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.log
