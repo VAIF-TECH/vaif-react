@@ -1,6 +1,6 @@
 {
   "name": "@vaif/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React hooks for VAIF - Authentication, Data, Realtime, Storage, and more",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
